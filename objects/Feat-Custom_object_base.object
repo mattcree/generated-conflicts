@@ -2,6 +2,7 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -199,7 +200,7 @@
     </fieldSets>
     <label>Custom object one</label>
     <nameField>
-        <label>Custom object one Name</label>
+        <label>Custom object one Name - FEAT</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Custom objects one</pluralLabel>
