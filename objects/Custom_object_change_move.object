@@ -183,7 +183,7 @@
         <displayedFields>
             <field>Name</field>
             <isFieldManaged>false</isFieldManaged>
-            <isRequired>true</isRequired>
+            <isRequired>false</isRequired>
         </displayedFields>
         <displayedFields>
             <field>Dev_box_1_part_2__c</field>
