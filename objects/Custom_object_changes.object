@@ -160,14 +160,14 @@
         <description>First label from dev sandbox 1 feature</description>
         <externalId>false</externalId>
         <label>Dev box 1 feature</label>
-        <trackTrending>false</trackTrending>
+        <trackTrending>true</trackTrending>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Dev_box_1_part_2__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Dev sandbox one second new field feature</description>
-        <externalId>false</externalId>
+        <externalId>true</externalId>
         <label>Dev box 1 part 2 feature</label>
         <trackTrending>true</trackTrending>
         <type>Checkbox</type>
@@ -209,7 +209,7 @@
         <fullName>Validation_rule_two feature</fullName>
         <active>false</active>
         <description>Validation rule two feature</description>
-        <errorConditionFormula>Name  = &#39;Dev box 1&#39;</errorConditionFormula>
+        <errorConditionFormula>Name  = &apos;Dev box env 1&apos;</errorConditionFormula>
         <errorDisplayField>Name</errorDisplayField>
         <errorMessage>Please enter dev box 1 feature</errorMessage>
     </validationRules>
