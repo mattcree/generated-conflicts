@@ -129,7 +129,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
-    </actionOverrides>    
+    </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
         <formFactor>Small</formFactor>
@@ -209,7 +209,7 @@
         <fullName>Validation_rule_two feature</fullName>
         <active>false</active>
         <description>Validation rule two feature</description>
-        <errorConditionFormula>Name  = &#39;Dev box 1&#39;</errorConditionFormula>
+        <errorConditionFormula>Name  = &apos;Dev box 1&apos;</errorConditionFormula>
         <errorDisplayField>Name</errorDisplayField>
         <errorMessage>Please enter dev box 1 feature</errorMessage>
     </validationRules>

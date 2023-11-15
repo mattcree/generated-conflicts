@@ -95,7 +95,8 @@ public class AddressService {
     }
 
     public static String fetchContractDetails(String serviceEntity, String memberOrUniqueId, String contractId){
-        System.debug('serviceEntity, memberOrUniqueId ' + serviceEntity + '  '  + memberOrUniqueId);
+        System.debug('serviceEntity, 
+          memberOrUniqueId ' + serviceEntity + '  '  + memberOrUniqueId);
         return JSON.serialize(CSCalloutUtil.getOwnershipOrContract(serviceEntity, memberOrUniqueId,''));
     }
 
