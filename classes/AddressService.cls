@@ -1,10 +1,16 @@
 public class AddressService {
 
+/*
+*  Creates a validation xml request for an entered address.
+*/
   public class AddressValidationRequest {
 
     public UserDetails userDetails {get;set;}
     public Address address {get;set;}
 
+    public AddressValidationRequest(Account account) {
+      userDetails = new UserDetails();
+      address = new Address(account);
     public AddressValidationRequest(Account userAccount) {
       userDetails = new UserDetails();
       address = new Address(userAccount);
@@ -43,19 +49,19 @@ public class AddressService {
     public void addToXmlDoc(Dom.XmlNode parentNode) {
       parentNode.addChildElement('username', null, null)
         .addTextNode(username);
-      parentNode.addChildElement('accessToken', null, null)
-        .addTextNode(accessToken);
     }
   }
 
   public class Address {
 
     public String streetAddress {get;set;}
+    public String conurbation {get;set;}
     public String municipality {get;set;}
     // ... other address vars
 
     public Address(Account acct) {
       this.streetAddress = acc.ShippingStreet;
+      this.conurbation = acc.ShippingCity;
       this.municipality = acc.ShippingCity;
       // ... set other address vars
     }
@@ -63,11 +69,12 @@ public class AddressService {
     public void addToXmlDoc(Dom.XmlNode parentNode) {
       parentNode.addChildElement('streetAddress', null, null)
         .addTextNode(streetAddress);
+      parentNode.addChildElement('conurbation', null, null)
+        .addTextNode(conurbation);
       parentNode.addChildElement('municipality', null, null)
         .addTextNode(municipality);
       // ... add other vars
     }
-
 
     public static String fetchNotes(String serviceEntity, String memberOrUniqueId, String selectedSystem){
         return JSON.serialize(CSCalloutUtil.getNotes(serviceEntity,memberOrUniqueId));
@@ -101,6 +108,8 @@ public class AddressService {
     }
 
     public static void updateTotalPoints(String recordId, String points){
+        update new Case(Id = recordId, CSTotal_points_credits__c = String.valueOf(Integer.valueOf(points) * 40));
+    }
         update new Case(Id = recordId, 
           CSTotal_points_credits__c = String.valueOf(Integer.valueOf(points) * 40));
     }  
