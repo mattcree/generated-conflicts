@@ -166,10 +166,10 @@
     <fields>
         <fullName>Dev_box_1_part_2__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>Dev sandbox one second new field</description>
+        <description>Dev sandbox one second new field feature</description>
         <externalId>true</externalId>
-        <label>Dev box 1 part 2</label>
-        <trackTrending>false</trackTrending>
+        <label>Dev box 1 part 2 feature</label>
+        <trackTrending>true</trackTrending>
         <type>Checkbox</type>
     </fields>
     <fieldSets>
@@ -206,10 +206,10 @@
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
-        <fullName>Validation_rule_two</fullName>
-        <active>true</active>
-        <description>Validation rule two</description>
-        <errorConditionFormula>Name  = &#39;Dev box env 1&#39;</errorConditionFormula>
+        <fullName>Validation_rule_two feature</fullName>
+        <active>false</active>
+        <description>Validation rule two feature</description>
+        <errorConditionFormula>Name  = &apos;Dev box env 1&apos;</errorConditionFormula>
         <errorDisplayField>Name</errorDisplayField>
         <errorMessage>Please enter dev box 1 env</errorMessage>
     </validationRules>

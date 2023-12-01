@@ -4,7 +4,7 @@
         <fullName>MyCustomAccountField__c</fullName>
         <description>This is a custom field on the Account standard object.</description>
         <externalId>false</externalId>
-        <inlineHelpText>This is help text.</inlineHelpText>
+        <inlineHelpText>Inline help text.</inlineHelpText>
         <label>MyCustomAccountField</label>
         <length>180</length>
         <required>false</required>

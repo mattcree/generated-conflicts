@@ -1,5 +1,8 @@
 public class AddressService {
 
+/*
+*  Creates a validation xml request for an entered address.
+*/
   public class AddressValidationRequest {
 
     public UserDetails userDetails {get;set;}
@@ -43,8 +46,6 @@ public class AddressService {
     public void addToXmlDoc(Dom.XmlNode parentNode) {
       parentNode.addChildElement('username', null, null)
         .addTextNode(username);
-      parentNode.addChildElement('accessToken', null, null)
-        .addTextNode(accessToken);
     }
   }
 
@@ -67,7 +68,6 @@ public class AddressService {
         .addTextNode(municipality);
       // ... add other vars
     }
-
 
     public static String fetchNotes(String serviceEntity, String memberOrUniqueId, String selectedSystem){
         return JSON.serialize(CSCalloutUtil.getNotes(serviceEntity,memberOrUniqueId));
