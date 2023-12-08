@@ -34,6 +34,10 @@
                 <behavior>Edit</behavior>
                 <field>EnvironmentOtherId</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>FeatureOtherId</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

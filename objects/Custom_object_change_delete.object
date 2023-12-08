@@ -209,7 +209,7 @@
         <fullName>Validation_rule_two</fullName>
         <active>true</active>
         <description>Validation rule two</description>
-        <errorConditionFormula>Name  = &#39;Dev box 1&#39;</errorConditionFormula>
+        <errorConditionFormula>Name  = &apos;Dev box 1&apos;</errorConditionFormula>
         <errorDisplayField>Name</errorDisplayField>
         <errorMessage>Please enter dev box 1</errorMessage>
     </validationRules>
