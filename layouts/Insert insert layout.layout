@@ -124,21 +124,21 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>FEAT1</field>
+                <field>ENV1</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>FEAT2</field>
+                <field>ENV2</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>FEAT3</field>
+                <field>ENV3</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>FEAT4</field>
+                <field>ENV4</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

@@ -68,13 +68,13 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>TotalTaxAmount</field>
-            </layoutItems>                       
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Editable</behavior>
                 <field>TotalAmount</field>
-            </layoutItems> 
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
@@ -93,7 +93,7 @@
                 <field>CreatedDate</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns>            
+        <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedDate</field>
