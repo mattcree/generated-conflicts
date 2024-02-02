@@ -11,6 +11,9 @@ public class AddressService {
     public AddressValidationRequest(Account account) {
       userDetails = new UserDetails();
       address = new Address(account);
+    public AddressValidationRequest(Account userAccount) {
+      userDetails = new UserDetails();
+      address = new Address(userAccount);
     }
 
     public String toXml() {
@@ -95,7 +98,8 @@ public class AddressService {
     }
 
     public static String fetchContractDetails(String serviceEntity, String memberOrUniqueId, String contractId){
-        System.debug('serviceEntity, memberOrUniqueId ' + serviceEntity + '  '  + memberOrUniqueId);
+        System.debug('serviceEntity, 
+          memberOrUniqueId ' + serviceEntity + '  '  + memberOrUniqueId);
         return JSON.serialize(CSCalloutUtil.getOwnershipOrContract(serviceEntity, memberOrUniqueId,''));
     }
 

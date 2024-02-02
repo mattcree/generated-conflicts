@@ -2,11 +2,11 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <fullName>MyCustomAccountField__c</fullName>
-        <description>A custom field on the Account object.</description>
+        <description>This is a custom field on the Account standard object.</description>
         <externalId>false</externalId>
         <inlineHelpText>Inline help text.</inlineHelpText>
         <label>MyCustomAccountField</label>
-        <length>120</length>
+        <length>180</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
