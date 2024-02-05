@@ -19,7 +19,7 @@
         <value>This is an manual invoice.</value>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Create Manual Invoice</shortDescription>
+        <shortDescription>Generate Manual Invoice</shortDescription>
     </labels>
     <labels>
         <fullName>creditNoteManual</fullName>
