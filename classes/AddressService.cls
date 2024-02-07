@@ -52,12 +52,14 @@ public class AddressService {
   public class Address {
 
     public String streetAddress {get;set;}
+    public String municipality {get;set;}
     public String conurbation {get;set;}
     // ... other address vars
 
     public Address(Account acct) {
       this.streetAddress = acc.ShippingStreet;
       this.conurbation = acc.ShippingCity;
+      this.municipality = acc.ShippingCity;
       // ... set other address vars
     }
 
@@ -66,6 +68,8 @@ public class AddressService {
         .addTextNode(streetAddress);
       parentNode.addChildElement('conurbation', null, null)
         .addTextNode(conurbation);
+      parentNode.addChildElement('municipality', null, null)
+        .addTextNode(municipality);
       // ... add other vars
     }
 
@@ -95,12 +99,16 @@ public class AddressService {
     }
 
     public static String fetchContractDetails(String serviceEntity, String memberOrUniqueId, String contractId){
-        System.debug('serviceEntity, memberOrUniqueId ' + serviceEntity + '  '  + memberOrUniqueId);
+        System.debug('serviceEntity, 
+          memberOrUniqueId ' + serviceEntity + '  '  + memberOrUniqueId);
         return JSON.serialize(CSCalloutUtil.getOwnershipOrContract(serviceEntity, memberOrUniqueId,''));
     }
 
     public static void updateTotalPoints(String recordId, String points){
         update new Case(Id = recordId, CSTotal_points_credits__c = String.valueOf(Integer.valueOf(points) * 40));
     }
+        update new Case(Id = recordId, 
+          CSTotal_points_credits__c = String.valueOf(Integer.valueOf(points) * 40));
+    }  
   }
 }
