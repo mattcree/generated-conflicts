@@ -23,7 +23,7 @@
     </labels>
     <labels>
         <fullName>creditNoteManual</fullName>
-        <value>This is a manually generated credit note.</value>
+        <value>This is a manual credit note.</value>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Generate Manual Credit Note</shortDescription>

@@ -158,7 +158,7 @@
     <fields>
         <fullName>Dev_box_1__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>First label from dev sandbox 1</description>
+        <description>First label from dev sandbox 1 ENV</description>
         <externalId>false</externalId>
         <label>Dev box 1</label>
         <trackTrending>false</trackTrending>
@@ -167,7 +167,7 @@
     <fields>
         <fullName>Dev_box_1_part_2__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>Dev sandbox one second new field</description>
+        <description>Dev sandbox one second new field ENV</description>
         <externalId>false</externalId>
         <label>Dev box 1 part 2</label>
         <trackTrending>false</trackTrending>
@@ -210,7 +210,7 @@
         <fullName>Validation_rule_two</fullName>
         <active>true</active>
         <description>Validation rule two</description>
-        <errorConditionFormula>Name  = &#39;Dev box 1&#39;</errorConditionFormula>
+        <errorConditionFormula>Name  = &apos;Dev box 1&apos;</errorConditionFormula>
         <errorDisplayField>Name</errorDisplayField>
         <errorMessage>Please enter dev box 1</errorMessage>
     </validationRules>
