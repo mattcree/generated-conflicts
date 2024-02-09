@@ -155,15 +155,6 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Dev_box_1__c</fullName>
-        <defaultValue>false</defaultValue>
-        <description>First label from dev sandbox 1</description>
-        <externalId>false</externalId>
-        <label>Dev box 1</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Dev_box_1_part_2__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Dev sandbox one second new field</description>
@@ -172,6 +163,15 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
+    <fields>
+        <fullName>Dev_box_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>First label from dev sandbox 1</description>
+        <externalId>false</externalId>
+        <label>Dev box 1</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>    
     <fieldSets>
         <fullName>Field_set_one</fullName>
         <description>On custom object one.</description>
@@ -179,12 +179,7 @@
             <field>Dev_box_1__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Name</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
+        </displayedFields>        
         <displayedFields>
             <field>Dev_box_1_part_2__c</field>
             <isFieldManaged>false</isFieldManaged>
@@ -192,6 +187,11 @@
         </displayedFields>
         <displayedFields>
             <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </displayedFields>
