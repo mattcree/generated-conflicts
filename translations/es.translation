@@ -1,27 +1,67 @@
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
   <customApplications>
-    <label>Orange</label>
+    <label>Kumquat</label>
     <name>Bob</name>
-  </customApplications>  
+  </customApplications>
+  <customApplications>
+    <label>Orange</label>
+    <name>Sally</name>
+  </customApplications>
+  <customApplications>
+    <label>Apple</label>
+    <name>Alice</name>
+  </customApplications>
   <customLabels>
     <label>Orange</label>
     <name>Bob</name>
+  </customLabels>
+  <customLabels>
+    <label>Orange</label>
+    <name>Chuck</name>
+  </customLabels>
+  <customLabels>
+    <label>Orange</label>
+    <name>Sally</name>
   </customLabels>
   <customPageWebLinks>
     <label>Orange</label>
     <name>Bob</name>
   </customPageWebLinks>
+  <customPageWebLinks>
+    <label>Orange</label>
+    <name>Sally</name>
+  </customPageWebLinks>
+  <customPageWebLinks>
+    <label>Apple</label>
+    <name>Alice</name>
+  </customPageWebLinks>
+  <customTabs>
+    <label>Orange</label>
+    <name>Alice</name>
+  </customTabs>
   <customTabs>
     <label>Orange</label>
     <name>Bob</name>
+  </customTabs>
+  <customTabs>
+    <label>Orange</label>
+    <name>Sally</name>
   </customTabs>
   <globalPicklists>
     <label>Orange</label>
     <name>Bob</name>
   </globalPicklists>
+  <globalPicklists>
+    <label>Orange</label>
+    <name>Sally</name>
+  </globalPicklists>
   <quickActions>
     <label>Orange</label>
     <name>Bob</name>
+  </quickActions>
+  <quickActions>
+    <label>Orange</label>
+    <name>Sally</name>
   </quickActions>
   <reportTypes>
     <label>Orange</label>
@@ -37,7 +77,7 @@
   </reportTypes>
   <reportTypes>
     <label>Orange</label>
-    <name>Alice</name>
+    <name>Sally</name>
     <sections>
         <label>Orange</label>
         <name>Bob</name>
@@ -51,16 +91,40 @@
     <label>Orange</label>
     <name>Bob</name>
   </scontrols>
+  <scontrols>
+    <label>Orange</label>
+    <name>Sally</name>
+  </scontrols>
   <prompts>
     <label>Orange</label>
     <name>Bob</name>
   </prompts>
-   <flowDefinitions>
+  <prompts>
+    <label>Orange</label>
+    <name>Sally</name>
+  </prompts>
+  <flowDefinitions>
     <flows>
       <choices>
         <name>Orange</name>
       </choices>
     </flows>
     <fullName>Bob</fullName>
-  </flowDefinitions>  
+  </flowDefinitions>
+  <flowDefinitions>
+    <flows>
+      <choices>
+        <name>Apple</name>
+      </choices>
+    </flows>
+    <fullName>Sally</fullName>
+  </flowDefinitions>
+   <flowDefinitions>
+    <flows>
+      <choices>
+        <name>Pear</name>
+      </choices>
+    </flows>
+    <fullName>Alice</fullName>
+  </flowDefinitions>
 </Translations>
