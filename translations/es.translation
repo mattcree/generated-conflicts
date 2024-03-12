@@ -1,55 +1,27 @@
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
   <customApplications>
-    <label>Dragon fruit</label>
+    <label>Orange</label>
     <name>Bob</name>
-  </customApplications>
-  <customApplications>
-    <label>Orange</label>
-    <name>Alice</name>
-  </customApplications>
-  <customLabels>
-    <label>Orange</label>
-    <name>Chuck</name>
-  </customLabels>
+  </customApplications>  
   <customLabels>
     <label>Orange</label>
     <name>Bob</name>
-  </customLabels>
-  <customLabels>
-    <label>Orange</label>
-    <name>Alice</name>
   </customLabels>
   <customPageWebLinks>
     <label>Orange</label>
     <name>Bob</name>
   </customPageWebLinks>
-  <customPageWebLinks>
-    <label>Orange</label>
-    <name>Alice</name>
-  </customPageWebLinks>
   <customTabs>
     <label>Orange</label>
     <name>Bob</name>
-  </customTabs>
-  <customTabs>
-    <label>Orange</label>
-    <name>Alice</name>
   </customTabs>
   <globalPicklists>
     <label>Orange</label>
     <name>Bob</name>
   </globalPicklists>
-  <globalPicklists>
-    <label>Orange</label>
-    <name>Alice</name>
-  </globalPicklists>
   <quickActions>
     <label>Orange</label>
     <name>Bob</name>
-  </quickActions>
-  <quickActions>
-    <label>Orange</label>
-    <name>Alice</name>
   </quickActions>
   <reportTypes>
     <label>Orange</label>
@@ -60,7 +32,7 @@
     </sections>
     <sections>
         <label>Apple</label>
-        <name>Sally</name>
+        <name>Alice</name>
     </sections>
   </reportTypes>
   <reportTypes>
@@ -72,39 +44,23 @@
     </sections>
     <sections>
         <label>Apple</label>
-        <name>Sally</name>
+        <name>Alice</name>
     </sections>
   </reportTypes>
   <scontrols>
     <label>Orange</label>
     <name>Bob</name>
   </scontrols>
-  <scontrols>
-    <label>Orange</label>
-    <name>Alice</name>
-  </scontrols>
   <prompts>
     <label>Orange</label>
     <name>Bob</name>
   </prompts>
-  <prompts>
-    <label>Orange</label>
-    <name>Alice</name>
-  </prompts>
-  <flowDefinitions>
+   <flowDefinitions>
     <flows>
       <choices>
         <name>Orange</name>
       </choices>
     </flows>
     <fullName>Bob</fullName>
-  </flowDefinitions>
-  <flowDefinitions>
-    <flows>
-      <choices>
-        <name>Apple</name>
-      </choices>
-    </flows>
-    <fullName>Alice</fullName>
-  </flowDefinitions>
+  </flowDefinitions>  
 </Translations>
