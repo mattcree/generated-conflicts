@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
   <fields>
     <label>Dragon fruit</label>
     <name>Bob</name>
+  </fields>
+  <fields>
+    <label>Orange</label>
+    <name>Sally</name>
   </fields>
   <fields>
     <label>Orange</label>
@@ -11,10 +15,14 @@
   <fieldSets>
     <label>Orange</label>
     <name>Chuck</name>
-  </fieldSets>
+  </fieldSets>  
   <fieldSets>
     <label>Orange</label>
     <name>Bob</name>
+  </fieldSets>
+  <fieldSets>
+    <label>Orange</label>
+    <name>Sally</name>
   </fieldSets>
   <fieldSets>
     <label>Orange</label>
@@ -23,6 +31,10 @@
   <namedFilters>
     <label>Orange</label>
     <name>Bob</name>
+  </namedFilters>
+  <namedFilters>
+    <label>Orange</label>
+    <name>Sally</name>
   </namedFilters>
   <namedFilters>
     <label>Orange</label>
@@ -31,6 +43,10 @@
   <recordTypes>
     <label>Orange</label>
     <name>Bob</name>
+  </recordTypes>
+  <recordTypes>
+    <label>Orange</label>
+    <name>Sally</name>
   </recordTypes>
   <recordTypes>
     <label>Orange</label>
@@ -39,6 +55,10 @@
   <sharingReasons>
     <label>Orange</label>
     <name>Bob</name>
+  </sharingReasons>
+  <sharingReasons>
+    <label>Orange</label>
+    <name>Sally</name>
   </sharingReasons>
   <sharingReasons>
     <label>Orange</label>
@@ -47,6 +67,10 @@
   <quickActions>
     <label>Orange</label>
     <name>Bob</name>
+  </quickActions>
+  <quickActions>
+    <label>Orange</label>
+    <name>Sally</name>
   </quickActions>
   <quickActions>
     <label>Orange</label>
@@ -66,14 +90,14 @@
   </layouts>
   <layouts>
     <label>Orange</label>
-    <layout>Alice</layout>
+    <layout>Sally</layout>
     <sections>
         <label>Orange</label>
         <section>Bob</section>
     </sections>
     <sections>
         <label>Apple</label>
-        <section>Sally</section>
+        <section>Alice</section>
     </sections>
   </layouts>
   <validationRules>
@@ -82,11 +106,19 @@
   </validationRules>
   <validationRules>
     <label>Orange</label>
+    <name>Sally</name>
+  </validationRules>
+  <validationRules>
+    <label>Orange</label>
     <name>Alice</name>
   </validationRules>
   <webLinks>
     <label>Orange</label>
     <name>Bob</name>
+  </webLinks>
+  <webLinks>
+    <label>Orange</label>
+    <name>Sally</name>
   </webLinks>
   <webLinks>
     <label>Orange</label>
@@ -98,6 +130,10 @@
   </workflowTasks>
   <workflowTasks>
     <label>Apple</label>
-    <name>Alice</name>
+    <name>Sally</name>
   </workflowTasks>
+  <workflowTasks>
+    <label>Apple</label>
+    <name>Alice</name>
+  </workflowTasks>  
 </CustomObjectTranslation>
