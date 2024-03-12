@@ -1,27 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
-    <assignmentRule>
-        <fullName>ModifiedCountryRule</fullName>
-        <active>true</active>
-        <ruleEntry>
-            <assignedTo>kenny.vaughan+eu+dev@gearset.com</assignedTo>
-            <assignedToType>User</assignedToType>
-            <criteriaItems>
-                <field>Lead.Country</field>
-                <operation>equals</operation>
-                <value>US,USA,United States,United States of America</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>kenny.vaughan+eu+dev@gearset.com</assignedTo>
-            <assignedToType>User</assignedToType>
-            <criteriaItems>
-                <field>Lead.Country</field>
-                <operation>Equal</operation>
-                <value>US,USA,United States,United States of America</value>
-            </criteriaItems>
-        </ruleEntry>
-    </assignmentRule>
     <assignmentRule>
         <fullName>Standard</fullName>
         <active>true</active>
@@ -39,8 +17,30 @@
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
+                <operation>equals</operation>
+                <value>US,USA,United States,United States of America</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>ModifiedCountryRule</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>kenny.vaughan+eu+dev@gearset.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.Country</field>
                 <operation>Equal</operation>
                 <value>United States of America</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>kenny.vaughan+eu+dev@gearset.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.Country</field>
+                <operation>Equal</operation>
+                <value>US,USA,United States,United States of America</value>
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>
