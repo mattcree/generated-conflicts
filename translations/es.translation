@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
   <customApplications>
     <label>Dragon fruit</label>
     <name>Bob</name>
+  </customApplications>
+  <customApplications>
+    <label>Orange</label>
+    <name>Sally</name>
   </customApplications>
   <customApplications>
     <label>Orange</label>
@@ -10,10 +15,14 @@
   <customLabels>
     <label>Orange</label>
     <name>Chuck</name>
-  </customLabels>
+  </customLabels>  
   <customLabels>
     <label>Orange</label>
     <name>Bob</name>
+  </customLabels>
+  <customLabels>
+    <label>Orange</label>
+    <name>Sally</name>
   </customLabels>
   <customLabels>
     <label>Orange</label>
@@ -22,6 +31,10 @@
   <customPageWebLinks>
     <label>Orange</label>
     <name>Bob</name>
+  </customPageWebLinks>
+  <customPageWebLinks>
+    <label>Orange</label>
+    <name>Sally</name>
   </customPageWebLinks>
   <customPageWebLinks>
     <label>Orange</label>
@@ -30,6 +43,10 @@
   <customTabs>
     <label>Orange</label>
     <name>Bob</name>
+  </customTabs>
+  <customTabs>
+    <label>Orange</label>
+    <name>Sally</name>
   </customTabs>
   <customTabs>
     <label>Orange</label>
@@ -38,6 +55,10 @@
   <globalPicklists>
     <label>Orange</label>
     <name>Bob</name>
+  </globalPicklists>
+  <globalPicklists>
+    <label>Orange</label>
+    <name>Sally</name>
   </globalPicklists>
   <globalPicklists>
     <label>Orange</label>
@@ -46,6 +67,10 @@
   <quickActions>
     <label>Orange</label>
     <name>Bob</name>
+  </quickActions>
+  <quickActions>
+    <label>Orange</label>
+    <name>Sally</name>
   </quickActions>
   <quickActions>
     <label>Orange</label>
@@ -65,14 +90,14 @@
   </reportTypes>
   <reportTypes>
     <label>Orange</label>
-    <name>Alice</name>
+    <name>Sally</name>
     <sections>
         <label>Orange</label>
         <name>Bob</name>
     </sections>
     <sections>
         <label>Apple</label>
-        <name>Sally</name>
+        <name>Alice</name>
     </sections>
   </reportTypes>
   <scontrols>
@@ -81,6 +106,10 @@
   </scontrols>
   <scontrols>
     <label>Orange</label>
+    <name>Sally</name>
+  </scontrols>
+  <scontrols>
+    <label>Orange</label>
     <name>Alice</name>
   </scontrols>
   <prompts>
@@ -89,9 +118,13 @@
   </prompts>
   <prompts>
     <label>Orange</label>
+    <name>Sally</name>
+  </prompts>
+  <prompts>
+    <label>Orange</label>
     <name>Alice</name>
   </prompts>
-  <flowDefinitions>
+   <flowDefinitions>
     <flows>
       <choices>
         <name>Orange</name>
@@ -105,6 +138,14 @@
         <name>Apple</name>
       </choices>
     </flows>
-    <fullName>Alice</fullName>
+    <fullName>Sally</fullName>
   </flowDefinitions>
+  <flowDefinitions>
+    <flows>
+      <choices>
+        <name>Apple</name>
+      </choices>
+    </flows>
+    <fullName>Alice</fullName>
+  </flowDefinitions>  
 </Translations>
