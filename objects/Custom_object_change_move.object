@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>Accept</actionName>
         <type>Default</type>
@@ -171,7 +170,7 @@
         <label>Dev box 1</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
-    </fields>    
+    </fields>
     <fieldSets>
         <fullName>Field_set_one</fullName>
         <description>On custom object one.</description>
@@ -179,7 +178,7 @@
             <field>Dev_box_1__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
-        </displayedFields>        
+        </displayedFields>
         <displayedFields>
             <field>Dev_box_1_part_2__c</field>
             <isFieldManaged>false</isFieldManaged>
@@ -193,7 +192,7 @@
         <displayedFields>
             <field>Name</field>
             <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
+            <isRequired>true</isRequired>
         </displayedFields>
         <label>Field set one</label>
     </fieldSets>
@@ -209,7 +208,7 @@
         <fullName>Validation_rule_two</fullName>
         <active>true</active>
         <description>Validation rule two</description>
-        <errorConditionFormula>Name  = &#39;Dev box 1&#39;</errorConditionFormula>
+        <errorConditionFormula>Name  = 'Dev box 1'</errorConditionFormula>
         <errorDisplayField>Name</errorDisplayField>
         <errorMessage>Please enter dev box 1</errorMessage>
     </validationRules>
