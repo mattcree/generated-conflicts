@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <layoutSections>
         <customLabel>false</customLabel>
@@ -14,7 +14,6 @@
                 <behavior>Edit</behavior>
                 <field>InvoiceNumber</field>
             </layoutItems>
-            
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ReferenceEntityId</field>
@@ -101,7 +100,7 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
-            </layoutItems>            
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
